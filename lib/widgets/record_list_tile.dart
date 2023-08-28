@@ -16,6 +16,7 @@ class RecordListTile extends StatelessWidget {
 
 
     return Card(
+      elevation: 3,
       shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(16)
       ),
