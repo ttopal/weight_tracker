@@ -8,4 +8,9 @@ class Controller extends GetxController {
     Record(dateTime: DateTime.now(), weight: 82, note: 'CCC'),
     Record(dateTime: DateTime.now(), weight: 83, note: 'DDD'),
   ].obs; // yayın yapacak liste oluşturuldu.
+
+void addRecord(){
+  records.add(Record(dateTime: DateTime.now(), weight: 80, note: 'XXXX'));
+  print(records.length);
+}
 }
